@@ -1,0 +1,39 @@
+{
+  "name" : "index",
+  "title" : "Home » 100 Days of Real Food Facebook Instagram Pinterest Twitter YouTube Facebook Instagram Pinterest Twitter YouTube",
+  "uri" : "100DAYSOFREALFOOD.COM",
+  "userInterface" : {
+    "themeName" : "mediaBlog",
+    "resourcesHost" : "https://bc.marfeelcache.com",
+    "lang" : "en",
+    "features" : {
+      "useMetricsJson" : true,
+      "useUiJson" : true,
+      "forceXL" : true,
+      "socialSharing" : "facebook, twitter, email, whatsapp",
+      "nativeAdvInDetails" : true,
+      "lateralMenuSearch" : true,
+      "disableImagesReverseProxy" : true,
+      "twisterJavaEnabled" : true
+    }
+  },
+  "configuration" : {
+    "quartzInvalidation" : "true",
+    "feedRipper" : "marfeelPressRipper",
+    "marfeelPressToken" : "rfioerogirigogo4rhoergergruifrebfribf3",
+    "boilerpipeFetcher" : "marfeelPressFetcher",
+    "detailItemsProcessor" : "throttledDetailItemsProcessor"
+  },
+  "sectionDefinitions" : [ {
+    "name" : "home",
+    "styles" : "photo",
+    "title" : "Home",
+    "feedDefinitions" : [ {
+      "uri" : "http://www.100DAYSOFREALFOOD.COM",
+      "alibabaDefinition" : { }
+    } ],
+    "configuration" : {
+      "cronRefresh" : "0 0/3 * 1/1 * ? *"
+    }
+  } ]
+}
